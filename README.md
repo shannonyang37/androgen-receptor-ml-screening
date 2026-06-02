@@ -14,10 +14,10 @@ A Random Forest classifier was trained using known AR binders and non-binders re
 ---
 ### Project Workflow
 The pipeline is broken down into four Jupyter Notebooks:
-1. **Data Acquisition:** Extracted bioactivity data (IC50) for the Androgen Receptor from the ChEMBL database via API.
-2. **Molecular Filtering:** Cleaned the dataset, calculated the Lipinski's Rule of Five, and filtered out unwanted structures and PAINs.
-3. **Model Training:** Computed molecular fingerprints and trained a Random Forest classifier. Compared the predictive performance of MACCS structural keys versus Morgan fingerprints.
-4. **Virtual Screening:** Deployed the best-performing model to screen a subset of FDA-approved drugs from ZINC20, yielding a final list of top predicted candidates.
+1. **Data Acquisition (`1_data_acquisition.ipynb`):** Extracted bioactivity data (IC50) for the Androgen Receptor from the ChEMBL database via API.
+2. **Molecular Filtering (`2_molecular_filtering.ipynb`):** Cleaned the dataset, calculated the Lipinski's Rule of Five, and filtered out unwanted structures and PAINs.
+3. **Model Training (`3_model_training.ipynb`):** Computed molecular fingerprints and trained a Random Forest classifier. Compared the predictive performance of MACCS structural keys versus Morgan fingerprints.
+4. **Virtual Screening (`4_virtual_screening.ipynb`):** Deployed the best-performing model to screen a subset of FDA-approved drugs from ZINC20, yielding a final list of top predicted candidates.
 
 ---
 ### Key Results
