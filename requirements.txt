@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+rdkit
+chembl_webresource_client
+tqdm
+joblib
+PubChemPy
+jupyter
