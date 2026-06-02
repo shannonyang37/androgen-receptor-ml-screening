@@ -50,8 +50,33 @@ Overall, the results demonstrate that the model is capable of enriching biologic
 
 ---
 ### Installation
-Clone the repository and install dependencies:
-'''bash
+Clone the repository:
+```
+git clone https://github.com/shannonyang37/androgen-receptor-ml-screening.git
+cd androgen-receptor-ml-screening
+```
+
+Set up a virtual environment:
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
+Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook:
+```
+jupyter notebook
+```
+
+Run the notebooks in sequential order to replicate the study:
+* 1_data_acquisition.ipynb
+* 2_molecular_filtering.ipynb
+* 3_model_training.ipynb
+* 4_virtual_screening.ipynb
 
 ---
 ### Author
