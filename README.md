@@ -80,6 +80,6 @@ Run the notebooks in sequential order to replicate the study:
 
 ---
 ### Author
-Yang Shann Wen
+Shannon Yang
 
 Learning Project: Androgen Receptor Binder Prediction and Drug Repurposing Using Random Forest
